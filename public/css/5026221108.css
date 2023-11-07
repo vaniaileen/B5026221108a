@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background-color: lightgray; 
+  background-image: radial-gradient(#8c8c8c, #d9d9d9, #d9d9d9 );
+  font-family: 'Poppins', sans-serif;
+}
+
+.vn_circle {
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.vn_initial {
+  position: relative;
+}
+
+.vn_centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.3rem;
+  color: white;
+}
+
+.vn_instagram {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+.vn_button {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+.vn_material-symbols-outlined {
+  float: right;
+}
+
+.vn_text{
+  color: black;
+}
+
+.vn_linebutton {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  text-decoration-color: black;
+  cursor: pointer;
+  text-align: center;
+}
+.vn_ytbutton {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+
+}
+.material-symbols-outlined {
+  float: right;
+}
+
+.vn_linkedinbutton {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+
+}
+.material-symbols-outlined {
+  float: right;
+}
+
+.vn_tiktokbutton {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+
+}
+.material-symbols-outlined {
+  float: right;
+}
+
+.vn_instagrambutton {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 17px 40px;
+  border-radius: 0.3rem;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+
+}
+.material-symbols-outlined {
+  float: right;
+}
+.vn_footer{
+  float: center;
+}
+.vn_footer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px; height: 90px;
+}
