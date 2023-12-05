@@ -12,12 +12,11 @@
  
 	<form action="/pegawai/store" method="post" class="form-horizontal">
 	{{ csrf_field() }}
-		<input type="hidden" name="id" value="{{ $p->pegawai_id }}"> <br/>
 		{{-- Nama --}}
 		<div class = "form-group row">
 			<label for = "nama" class = "col-sm-2 control label">Nama</label>
 			<div class = "col-sm-8">
-			 <input type="text" required="required" name="nama" value="{{ $p->pegawai_nama }}"> <br/>
+			 <input type="text" required="required" class="form-control" id="nama" name="nama" value="{{ $p->pegawai_nama }}"> <br/>
 			</div>
 		</div>
 		{{-- Jabatan --}}
@@ -31,7 +30,7 @@
 		<div class = "form-group row">
 			<label for = "umur" class = "col-sm-2 control label">Umur</label>
 			<div class = "col-sm-8">
-			<input type="number" name="umur" value="{{ $p->pegawai_umur }}"> <br/>
+			<input type="number" name="umur" id="umur" value="{{ $p->pegawai_umur }}"> <br/>
 			 </div>
 		</div>
 		{{-- Alamat --}}
