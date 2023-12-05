@@ -96,3 +96,7 @@ Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@be
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');
 
+//Route CRUD Latihan Soal Nilai
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
