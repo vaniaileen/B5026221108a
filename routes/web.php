@@ -100,3 +100,12 @@ Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangControl
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
 Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+//Route CRUD Latihan Pre EAS
+Route::get('/modem','App\Http\Controllers\ModemController@indexModem');
+Route::get('/modem/view/{kode}','App\Http\Controllers\ModemController@viewModem');
+Route::get('/modem/tambah','App\Http\Controllers\ModemController@tambahModem');
+Route::get('/modem/edit/{kode}','App\Http\Controllers\ModemController@editModem');
+Route::post('/modem/store','App\Http\Controllers\ModemController@storeModem');
+Route::post('/modem/update','App\Http\Controllers\ModemController@updateModem');
+Route::get('/modem/hapus/{kode}','App\Http\Controllers\ModemController@hapusModem');
