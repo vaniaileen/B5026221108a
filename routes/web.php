@@ -109,3 +109,9 @@ Route::get('/modem/edit/{kode}','App\Http\Controllers\ModemController@editModem'
 Route::post('/modem/store','App\Http\Controllers\ModemController@storeModem');
 Route::post('/modem/update','App\Http\Controllers\ModemController@updateModem');
 Route::get('/modem/hapus/{kode}','App\Http\Controllers\ModemController@hapusModem');
+
+//Route EAS
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@indexKaryawan');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambahData');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@storeKaryawan');
+Route::get('/karyawan/hapus/{kode}','App\Http\Controllers\KaryawanController@hapusMKaryawan');

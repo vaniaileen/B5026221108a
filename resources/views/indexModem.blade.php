@@ -16,18 +16,29 @@
      <br />
  
 	<table class="table table-striped table-hover">
-		<tr>
+		<tr style="text-align:center">
 			<th>Kode Modem</th>
 			<th>Merk Modem</th>
 			<th>Stok</th>
 			<th>ketersediaan</th>
+			<th>Action</th>
 		</tr>
 		@foreach($modem as $m)
 		<tr>
+		<tr style="text-align:center">
 			<td>{{ $m->kodemodem }}</td>
 			<td>{{ $m->merkmodem }}</td>
 			<td>{{ $m->stokmodem }}</td>
 			<td>{{ $m->tersedia }}</td>
+			<td>
+				<div class="custom-checkbox" style="border: 2px solid {{ $m->tersedia == 'T' ? 'green' : 'red' }}; border-radius: 10px">
+                    <label for="customCheckbox {{$m->kodemodem}}" style="color: {{$m->tersedia == 'Y' ? 'green' : 'red' }};">
+                        {{ $m->tersedia == 'T' ? 'T' : 'F' }}</label>
+                    <input type="checkbox" {{$m->tersedia == 'T' ? 'checked' : '' }} disabled
+                        id="customCheckbox{{$m->kodemodem}}">
+                    <label for="customCheckbox {{ $m->kodemodem }}"></label>
+                </div>
+			</td>
 			<td>
 				<a href="/modem/view/{{ $m->kodemodem }}" class="btn btn-success">View</a>
 				|
